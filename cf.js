@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     squares[i].classList.add('taken')
                     squares[i].classList.add('player-one')
                     currentPlayer = 2
-                    displayCurrentPlayer.innerHtml = currentPlayer
+                    displayCurrentPlayer.innerHTML = currentPlayer
                 } else if (currentPlayer === 2) {
                     squares[i].classList.add('taken')
                     squares[i].classList.add('player-two')
