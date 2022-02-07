@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     currentPlayer = 1
                     displayCurrentPlayer.innerHTML = currentPlayer
                 }
-            } else alert('cant go here')
+            }
             checkBoard()
         }
     }
